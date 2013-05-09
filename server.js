@@ -1,3 +1,6 @@
+// Send a post request to /save with parameter 'uptime' and get it back from / by a get request
+// curl -F "uptime=`uptime`" http://server_address:8085/save
+
 var express = require('express');
 var fs = require('fs');
 
